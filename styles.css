@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: lavenderblush;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(244, 190, 208);
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+
+  li {
+    float: right;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: violet;
+  }
+
+  footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: gray;
+    text-align: center;
+  }
+
+  .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  form {
+    background: transparent;
+  }
+
+  .submit-btn {
+    width: 20%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: lightblue;
+    border: 2px solid rgb(121, 121, 247);
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .submit-btn:hover {
+    background-color: lavender;
+    border: 2px solid blueviolet;
+    cursor: pointer;
+  }
+
+  #name {
+    width: 150px;
+    padding: 10px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+  }
+
+  #email {
+    width: 200px;
+    padding: 10px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+  }
+
+  #message {
+    width: 300px;
+    padding: 10px;
+    margin: 8px 10px;
+    box-sizing: border-box;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(121, 121, 247);
+    border-radius: 4px;
+  }
+
+  textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(121, 121, 247);
+    border-radius: 4px;
+  }
+
+  .grid {
+    display: grid;
+    row-gap: 50px;
+    column-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color: transparent;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: lightpink;
+    border: 1px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .grid-item1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: lightpink;
+    border: 1px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .flex{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: transparent;
+    justify-content: center;
+  }
+  
+  .flex > div {
+    background-color: #a3a3a3;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    justify-content: center;
+  }
